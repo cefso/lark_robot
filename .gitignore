@@ -1,0 +1,43 @@
+# 密钥 / 本地配置（不要提交）
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志
+*.log
+logs/
+
+# 本地调试输出
+*.pid
+.cache/
